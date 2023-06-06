@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Piano Exercise Randomizer</title>
+</head>
+<body>
+  <form id="selectionForm">
+    <div>
+        <h3>Select Keys</h3>
+        <label><input type="checkbox" name="key" value="C Major">C Major</label>
+        <label><input type="checkbox" name="key" value="Db Major">Db Major</label>
+        <label><input type="checkbox" name="key" value="D Major">D Major</label>
+        <label><input type="checkbox" name="key" value="Eb Major">Eb Major</label>
+        <label><input type="checkbox" name="key" value="E Major">E Major</label>
+        <label><input type="checkbox" name="key" value="F Major">F Major</label>
+        <label><input type="checkbox" name="key" value="Gb Major">Gb Major</label>
+        <label><input type="checkbox" name="key" value="G Major">G Major</label>
+        <label><input type="checkbox" name="key" value="Ab Major">Ab Major</label>
+        <label><input type="checkbox" name="key" value="A Major">A Major</label>
+        <label><input type="checkbox" name="key" value="Bb Major">Bb Major</label>
+        <label><input type="checkbox" name="key" value="B Major">B Major</label>
+        <label><input type="checkbox" name="key" value="C Minor">C Minor</label>
+        <label><input type="checkbox" name="key" value="C# Minor">C# Minor</label>
+        <label><input type="checkbox" name="key" value="D Minor">D Minor</label>
+        <label><input type="checkbox" name="key" value="Eb Minor">Eb Minor</label>
+        <label><input type="checkbox" name="key" value="E Minor">E Minor</label>
+        <label><input type="checkbox" name="key" value="F Minor">F Minor</label>
+        <label><input type="checkbox" name="key" value="F# Minor">F# Minor</label>
+        <label><input type="checkbox" name="key" value="G Minor">G Minor</label>
+        <label><input type="checkbox" name="key" value="G# Minor">G# Minor</label>
+        <label><input type="checkbox" name="key" value="A Minor">A Minor</label>
+        <label><input type="checkbox" name="key" value="Bb Minor">Bb Minor</label>
+        <label><input type="checkbox" name="key" value="B Minor">B Minor</label>
+    </div>
+
+    <div>
+        <h3>Select Exercises</h3>
+        <label><input type="checkbox" name="exercise" value="Scales">Scales</label>
+        <label><input type="checkbox" name="exercise" value="Three-Note Tonic Chords">Three-Note Tonic Chords</label>
+        <label><input type="checkbox" name="exercise" value="Four-Note Tonic Chords">Four-Note Tonic Chords</label>
+        <label><input type="checkbox" name="exercise" value="Formula Patterns">Formula Patterns</label>
+        <label><input type="checkbox" name="exercise" value="7th Chords">7th Chords</label>
+        <label><input type="checkbox" name="exercise" value="Arpeggios">Arpeggios</label>
+    </div>
+    <button type="button" id="randomizeButton">Randomize</button>
+  </form>
+  
+  <h2>Your Random Exercise</h2>
+  <p id="exerciseDisplay"></p>
+  
+  <button type="button" id="randomizeAgainButton" style="display:none;">Randomize Again</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
